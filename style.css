@@ -1,25 +1,20 @@
-/* Dark background around PDF */
 body, #viewerContainer {
   background-color: #121212 !important;
 }
 
-/* Darken PDF pages */
 canvas {
   filter: invert(1) hue-rotate(180deg) !important;
 }
 
-/* Fix images inside PDF if needed */
 img {
   filter: invert(1) hue-rotate(180deg) !important;
 }
 
-/* Dark toolbar */
 .toolbar, .toolbarButton, .secondaryToolbar {
   background-color: #1e1e1e !important;
   color: #ffffff !important;
 }
 
-/* Remove white flashes */
 .page {
   background-color: #121212 !important;
 }
